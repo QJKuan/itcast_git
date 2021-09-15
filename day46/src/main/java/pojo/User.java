@@ -1,18 +1,18 @@
 package pojo;
 
 public class User {
-    private String username;
+    private String user;
     private String password;
 
     public User() {
     }
 
-    public String getUsername() {
-        return username;
+    public String getUser() {
+        return user;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUser(String user) {
+        this.user = user;
     }
 
     public String getPassword() {
@@ -24,14 +24,14 @@ public class User {
     }
 
     public User(String username, String password) {
-        this.username = username;
+        this.user = username;
         this.password = password;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "username='" + username + '\'' +
+                "username='" + user + '\'' +
                 ", password='" + password + '\'' +
                 '}';
     }
